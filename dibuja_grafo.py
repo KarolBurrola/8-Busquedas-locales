@@ -501,5 +501,6 @@ def main():
     print("Tiempo de ejecución en segundos: {:.4f}".format(t_final_dif - t_inicial_dif))
     grafo_dif.dibuja_grafo(solu_dif, "prueba_grafo_feo_final.gif")
 
+
 if __name__ == '__main__':
     main()
